@@ -1,0 +1,38 @@
+{
+    "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path": "pages/index/index",
+            "style": {
+                "navigationBarTitleText": "图灵班优质男性年终大促"
+            }
+        },
+        {
+            "path": "componenets/squareItem/squareItem",
+            "style": {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/more/more",
+            "style": {
+                "navigationBarTitleText": "商品详情",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "componenets/ListItem/ListItem",
+            "style": {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "uniIdRouter": {}
+}

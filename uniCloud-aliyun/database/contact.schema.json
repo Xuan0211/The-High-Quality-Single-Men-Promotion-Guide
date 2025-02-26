@@ -1,0 +1,50 @@
+{
+    "bsonType": "object",
+    "required": [],
+    "permission": {
+        "read": true,
+        "create": true,
+        "update": true,
+        "delete": true
+    },
+    "properties": {
+        "_id": {
+            "description": "ID，系统自动生成",
+            "permission": {
+                "read": true,
+                "create": true,
+                "update": true,
+                "delete": true
+            }
+        },
+        "forWho": {
+            "bsonType": "string",
+            "permission": {
+                "read": true,
+                "create": true,
+                "update": true,
+                "delete": true
+            }
+        },
+        "content": {
+            "bsonType": "string",
+            "maxLength": 500,
+            "minLength": 1,
+            "permission": {
+                "read": true,
+                "create": true,
+                "update": true,
+                "delete": true
+            }
+        },
+        "index": {
+            "bsonType": "string",
+            "permission": {
+                "read": true,
+                "create": true,
+                "update": true,
+                "delete": true
+            }
+        }
+    }
+}
